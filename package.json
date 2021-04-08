@@ -4,5 +4,19 @@
   "description": "Light react wrapper around lottie web",
   "main": "index.js",
   "author": "Jedidiah",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "typescript": "^4.2.4"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,tsx,css,md}": "prettier --write --ignore-unknown"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
 }
