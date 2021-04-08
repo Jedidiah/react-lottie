@@ -1,0 +1,8 @@
+{
+  "name": "@jedidiah/react-lottie",
+  "version": "1.0.0",
+  "description": "Light react wrapper around lottie web",
+  "main": "index.js",
+  "author": "Jedidiah",
+  "license": "MIT"
+}
