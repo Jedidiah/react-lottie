@@ -1,1 +1,2 @@
-const helloWorld: string = "Hello World!";
+import Lottie from "./components/Lottie";
+export { Lottie };

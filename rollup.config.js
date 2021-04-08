@@ -28,5 +28,6 @@ export default [
       sourcemap: true,
     },
     plugins,
+    external: ["react", "react-dom", "lottie-web"],
   },
 ];
