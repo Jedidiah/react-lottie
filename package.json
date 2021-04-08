@@ -29,5 +29,8 @@
   "scripts": {
     "build": "npx rollup -c",
     "prepare": "husky install"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
