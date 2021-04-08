@@ -1,6 +1,6 @@
 {
   "name": "@jedidiah/react-lottie",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Light react wrapper around lottie-web",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
