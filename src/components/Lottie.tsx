@@ -10,13 +10,12 @@ import LottiePlayer, {
 export type LottieProps = {
   renderer?: "svg" | "canvas" | "html";
   loop?: boolean | number;
-  // autoplay?: boolean;
   playState?: "playing" | "paused" | "stopped";
   initialSegment?: AnimationSegment;
   name?: string;
   assetsPath?: string;
-  direction: -1 | 1;
-  speed: number;
+  direction?: -1 | 1;
+  speed?: number;
   rendererSettings?:
     | SVGRendererConfig
     | CanvasRendererConfig
