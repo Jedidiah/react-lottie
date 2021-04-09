@@ -4,6 +4,7 @@
   "description": "Light react wrapper around lottie-web",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["dist"],
   "module": "dist/index.esm.js",
   "author": "Jedidiah",
   "license": "MIT",
